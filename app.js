@@ -16,8 +16,8 @@ window.addEventListener("load", () => {
     navigator.geolocation.getCurrentPosition((position) => {
       lat = position.coords.latitude;
       long = position.coords.longitude;
-      // lat=52;
-      // long=88;
+      // lat=-25;
+      // long=90;
       // console.log(position);
       console.log(lat);
       console.log(long);
@@ -66,17 +66,17 @@ window.addEventListener("load", () => {
     else if(icondata=='04d' || icondata=='04n'){
       icon.className="fad fa-clouds";
       document.body.style.backgroundImage="url('https://images.unsplash.com/photo-1625429912134-06694c9d1813?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80')";
-      freetips.textContent='💡 Carry an Umbrella';
+      freetips.textContent='💡 Carry an Umbrella ☂';
     }
     else if(icondata=='09d' || icondata=='09n'){
       icon.className="fad fa-cloud-drizzle";
       document.body.style.backgroundImage="url('https://images.unsplash.com/18/trickle.JPG?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80')";
-      freetips.textContent='💡 Carry an Umbrella';
+      freetips.textContent='💡 Carry an Umbrella ☂';
     }
     else if(icondata=='10d' || icondata=='10n'){
       icon.className="fad fa-cloud-showers-heavy";
       document.body.style.backgroundImage="url('https://images.unsplash.com/photo-1519692933481-e162a57d6721?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')";
-      freetips.textContent='💡 Carry an Umbrella';
+      freetips.textContent='💡 Carry an Umbrella ☂';
     }
     else if(icondata=='11d' || icondata=='11n'){
       icon.className="fad fa-thunderstorm";
@@ -90,8 +90,8 @@ window.addEventListener("load", () => {
     }
     else if(icondata=='50d' || icondata=='50n'){
       icon.className="fad fa-water";
-      document.body.style.backgroundImage="url('https://images.unsplash.com/photo-1591420699297-88e82958f324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80')";
-      freetips.textContent='💡 Enjoy the weather';
+      document.body.style.backgroundImage="url('https://images.unsplash.com/photo-1514920735211-8c697444a248?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80')";
+      freetips.textContent='💡 Get some Coffee ☕';
     }
     else{
       icon.className="fal fa-sun-cloud";
